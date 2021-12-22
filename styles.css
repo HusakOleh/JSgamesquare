@@ -1,41 +1,101 @@
 body {
     margin: 0;
     padding: 0;
-    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: url("image/wrap-bg.jpg") center/cover #000000;
+    /*background: linear-gradient(#071a59, #000000);*/
+    background: url("image/bg.png") center/cover #000000;
+    /*backdrop-filter: blur(1px);*/
     height: 100vh;
 }
 
-.game_wrap {
+.game-wrap {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     max-width: 600px;
     width: 100%;
     max-height: 600px;
     height: 100%;
-    background: aliceblue;
+    background: #001b32;
     border-radius: 5px;
-    box-shadow: 0 0 20px #ffffff;
+    box-shadow: 0 0 20px #017bf8;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-.game_wrap p {
+.game-time {
+    display: flex;
+}
+
+.game-time p {
     font-size: 50px;
     text-transform: uppercase;
     font-family: DFPOP1-W9;
+    margin: 20px auto;
 }
 
 .click-wrap {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    box-shadow: #071a59 0 0 20px;
+    border-radius: 5px;
+    background: url("image/grid-bg.jpg") center/cover aliceblue;
+    backdrop-filter: blur(10px);
 }
 
+.click-wrap button {
+    width: 180px;
+    height: 60px;
+    background: linear-gradient(#001b32, #000000);
+    text-transform: uppercase;
+    font-family: DFPOP1-W9;
+    font-size: 40px;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: #017bf8 0 0 10px;
+    border-radius: 10px;
+}
 
+.game-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
 
+.game-footer p {
+    text-transform: uppercase;
+    font-family: DFPOP1-W9;
+    font-size: 20px;
+}
 
+.game-footer input {
+    width: 70%;
+    height: 30px;
 
+    background: linear-gradient(#001b32, #000000);
+    text-transform: uppercase;
+    font-family: DFPOP1-W9;
+    font-size: 20px;
+    color: aliceblue;
+    box-shadow: #017bf8 0 0 20px;
+    border-radius: 10px;
+    text-align: center;
+    border-style: none;
+    padding-right: 10px;
+}
+
+.game-footer input:focus-visible {
+    outline: none;
+}
 
 
 
