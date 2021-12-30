@@ -50,6 +50,13 @@ body {
     backdrop-filter: blur(10px);
 }
 
+.click-wrap:hover {
+    cursor: url(image/sniper.cur), crosshair;
+    /*cursor: pointer;*/
+}
+
+
+
 .click-wrap button {
     width: 180px;
     height: 60px;

@@ -20,20 +20,31 @@ function setGameTime() {
 }
 
 
-
-
 timeValue.addEventListener('input', setGameTime)
+
+
+
+
+
+
 startButton.addEventListener('click', startGame)
 
-function addSquare() {
+
+
+
+
+
+
+
+
+
+
+function addMonster() {
     let addDiv = clickWrap.insertAdjacentHTML("afterbegin", '<div id="rS"></div>')
     randomSquare = document.querySelector('#rS')
-    randomSquare.style.width = randomSquare.style.height = '100px'
-
-    randomSquare.style.backgroundColor = '#fff'
-
-
-
+    randomSquare.style.width = randomSquare.style.height = '80px'
+    randomSquare.style.background = 'url("image/monster.png") center/cover'
+    randomSquare.style.position = 'absolute'
 }
 
 
@@ -44,7 +55,8 @@ function startGame() {
     startButton.classList.add('hide')
     console.log(timeValue.value)
     timeValue.setAttribute('disabled', 'disabled')
-    addSquare()
+
+    addMonster()
 
 }
 
