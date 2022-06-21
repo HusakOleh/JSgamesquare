@@ -1,13 +1,11 @@
 body {
     margin: 0;
-    padding: 0;
+    /*padding: 0 10%;*/
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    /*background: linear-gradient(#071a59, #000000);*/
     background: url("image/bg.png") center/cover #000000;
-    /*backdrop-filter: blur(1px);*/
     height: 100vh;
 }
 
@@ -15,9 +13,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 600px;
-    width: 100%;
-    max-height: 600px;
+    max-width: 90%;
+    width: 1000px;
+    max-height: 90%;
     height: 100%;
     background: #001b32;
     border-radius: 5px;
@@ -36,14 +34,15 @@ body {
     text-transform: uppercase;
     font-family: DFPOP1-W9;
     margin: 20px auto;
+    text-align: center;
 }
 
 .click-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 70%;
     box-shadow: #071a59 0 0 20px;
     border-radius: 5px;
     background: url("image/grid-bg.jpg") center/cover aliceblue;
@@ -75,7 +74,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    /*width: 60%;*/
 }
 
 .game-footer p {
