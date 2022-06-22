@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e060183-e31e-43c7-9292-28f0e879d2e9" name="Changes" comment="finish set time">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/grid-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/grid-bg2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/wrap-bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +33,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/OLEH/FrontEnd developming/JS",
+    "last_opened_file_path": "D:/OLEH/FrontEnd developming/full project/portfolio",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -70,7 +67,7 @@
       <workItem from="1655694960140" duration="3258000" />
       <workItem from="1655782518195" duration="5219000" />
       <workItem from="1655789553511" duration="912000" />
-      <workItem from="1655869486010" duration="671000" />
+      <workItem from="1655869486010" duration="3765000" />
     </task>
     <servers />
   </component>

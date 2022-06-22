@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Press+Start+2P&display=swap');
+
 body {
     margin: 0;
     /*padding: 0 10%;*/
@@ -33,7 +35,7 @@ body {
 .game-time p {
     font-size: 50px;
     text-transform: uppercase;
-    font-family: DFPOP1-W9;
+    font-family: 'Audiowide', 'Press Start 2P', sans-serif;
     margin: 20px auto;
     text-align: center;
 }
@@ -78,7 +80,7 @@ body {
     /*background: linear-gradient(#001b32, #000000);*/
     background: linear-gradient(#FFAF94, #DD2579);
     text-transform: uppercase;
-    font-family: DFPOP1-W9;
+    font-family: 'Audiowide', 'Press Start 2P', sans-serif;
     font-size: 40px;
     color: #130133;
     cursor: pointer;
@@ -105,7 +107,7 @@ body {
 
 .game-footer p {
     text-transform: uppercase;
-    font-family: DFPOP1-W9;
+    font-family: 'Audiowide', 'Press Start 2P', sans-serif;
     font-size: 20px;
 }
 
@@ -115,7 +117,7 @@ body {
 
     background: linear-gradient(#001b32, #000000);
     text-transform: uppercase;
-    font-family: DFPOP1-W9;
+    font-family: 'Audiowide', 'Press Start 2P', sans-serif;
     font-size: 20px;
     color: aliceblue;
     box-shadow: #017bf8 0 0 20px;
