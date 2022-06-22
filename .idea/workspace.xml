@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8e060183-e31e-43c7-9292-28f0e879d2e9" name="Changes" comment="finish set time">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/monster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/grid-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/grid-bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/wrap-bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -32,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OLEH/FrontEnd developming/full project/JS gamesquare&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/OLEH/FrontEnd developming/JS",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +68,9 @@
       <workItem from="1655365223363" duration="776000" />
       <workItem from="1655439138842" duration="2264000" />
       <workItem from="1655694960140" duration="3258000" />
-      <workItem from="1655782518195" duration="306000" />
+      <workItem from="1655782518195" duration="5219000" />
+      <workItem from="1655789553511" duration="912000" />
+      <workItem from="1655869486010" duration="671000" />
     </task>
     <servers />
   </component>
@@ -88,26 +91,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finish set time" />
     <option name="LAST_COMMIT_MESSAGE" value="finish set time" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/script.js</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/script.js</url>
-          <line>5</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/script.js</url>
-          <line>3</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

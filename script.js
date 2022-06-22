@@ -4,12 +4,14 @@ const $time = document.querySelector('#time');
 const $gameTime = document.querySelector('#gameTime');
 const $score = document.querySelector('#score');
 const $gameScore = document.querySelector('#gameScore');
+const $inputTime = document.querySelector('#input');
 
 let score = 0;
 let isGameStarted = false;
 
 $start.addEventListener('click', startGame)
 $game.addEventListener('click', handleEnemyClick);
+$inputTime.addEventListener('input', setGameTime);
 
 const hide = $el => $el.classList.add('hide');
 const show = $el => $el.classList.remove('hide');
@@ -19,6 +21,10 @@ const rand = (min, max) => {
 
 
 function startGame() {
+    score = 0;
+    setGameTime();
+    $inputTime.setAttribute('disabled', 'true');
+
     isGameStarted = true;
     $game.style.background = `url("image/bg${rand(1, 9)}.jpg") center/cover`;
     hide($start);
@@ -43,15 +49,23 @@ function setGameScore() {
     $score.textContent = score.toString();
 };
 
+function setGameTime() {
+    let time = parseInt($inputTime.value);
+    $time.textContent = time.toFixed(1);
+    show($gameTime);
+    hide($gameScore);
+};
+
+
 function endGame() {
     isGameStarted = false;
     setGameScore();
     $game.innerHTML = '';
-
+    $inputTime.removeAttribute('disabled');
     show($gameScore);
     hide($gameTime);
-
-    show($start) // перенести в ХТМЛ старт як сіблінг ігрового полотна (не зявляється в дом дереві)
+    $game.style.background = `url("image/grid-bg.jpg") center/cover`;
+    show($start)
 }
 
 function handleEnemyClick(event) {
